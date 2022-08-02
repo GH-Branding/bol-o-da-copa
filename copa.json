@@ -1,0 +1,389 @@
+{
+    "matches": [
+        {
+            "team1": "Senegal",
+            "team2": "Holanda",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Inglaterra",
+            "team2": "Irã",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Catar",
+            "team2": "Equador",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "EUA",
+            "team2": "País de Gales",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Argentina",
+            "team2": "Arábia Saudita",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Dinamarca",
+            "team2": "Tunísia",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "México",
+            "team2": "Polônia",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "França",
+            "team2": "Austrália",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Marrocos",
+            "team2": "Croácia",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Alemanha",
+            "team2": "Japão",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Espanha",
+            "team2": "Costa Rica",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Bélgica",
+            "team2": "Canadá",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Suíça",
+            "team2": "Camarões",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Uruguai",
+            "team2": "Coréia do Sul",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Portugal",
+            "team2": "Gana",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Brasil",
+            "team2": "Sérvia",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "País de Gales",
+            "team2": "Irã",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Catar",
+            "team2": "Senegal",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Holanda",
+            "team2": "Equador",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Inglaterra",
+            "team2": "EUA",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Tunísia",
+            "team2": "Austrália",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Polônia",
+            "team2": "Arábia Saudita",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "França",
+            "team2": "Dinamarca",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Argentina",
+            "team2": "México",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Japão",
+            "team2": "Costa Rica",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Bélgica",
+            "team2": "Marrocos",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Croácia",
+            "team2": "Canadá",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Espanha",
+            "team2": "Alemanha",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Camarões",
+            "team2": "Sérvia",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Coréia do Sul",
+            "team2": "Gana",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Brasil",
+            "team2": "Suíça",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Portugal",
+            "team2": "Uruguai",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Equador",
+            "team2": "Senegal",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Holanda",
+            "team2": "Catar",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Irã",
+            "team2": "EUA",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "País de Gales",
+            "team2": "Inglaterra",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Tunísia",
+            "team2": "França",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Austrália",
+            "team2": "Dinamarca",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Polônia",
+            "team2": "Argentina",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Arábia Saudita",
+            "team2": "México",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Croácia",
+            "team2": "Bélgica",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Canadá",
+            "team2": "Marrocos",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Japão",
+            "team2": "Espanha",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Costa Rica",
+            "team2": "Alemanha",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Coréia do Sul",
+            "team2": "Portugal",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Gana",
+            "team2": "Uruguai",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Sérvia",
+            "team2": "Suíça",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Camarões",
+            "team2": "Brasil",
+            "score1": 1,
+            "score2": 0,
+            "phase": "grupos"
+        },
+        {
+            "team1": "Canadá",
+            "team2": "Brasil",
+            "score1": 1,
+            "score2": 0,
+            "phase": "oitavas"
+        }
+    ],
+    "teams": [
+        "Catar",
+        "Equador",
+        "Senegal",
+        "Holanda",
+        "Inglaterra",
+        "Irã",
+        "EUA",
+        "País de Gales",
+        "Argentina",
+        "Aŕabia Saudita",
+        "México",
+        "Polônia",
+        "França",
+        "Austrália",
+        "Dinamarca",
+        "Tunísia",
+        "Espanha",
+        "Costa Rica",
+        "Alemanha",
+        "Japão",
+        "Bélgica",
+        "Canadá",
+        "Marrocos",
+        "Croácia",
+        "Brasil",
+        "Sérvia",
+        "Suíça",
+        "Camarões",
+        "Portugal",
+        "Gana",
+        "Uruguai",
+        "Coréia do Sul"
+    ],
+    "phases": [
+        "grupos",
+        "oitavas",
+        "quartas",
+        "semi",
+        "terceiro-lugar",
+        "final"
+    ]
+}
