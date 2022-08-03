@@ -4,3 +4,6 @@ dist
 
 # ignorar node_modules, é uma pasta muito grande
 node_modules
+
+# ignorar alterações no config, pois cada dev/ambiente pode ter uma config diferente
+js/config.js
