@@ -1,1 +1,6 @@
+
+# ignorar assets compilados, pois eles mudam o tempo todo
+dist
+
+# ignorar node_modules, é uma pasta muito grande
 node_modules

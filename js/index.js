@@ -1,15 +1,6 @@
+import firebaseConfig from './config';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, child, get, set } from "firebase/database";
-
-const firebaseConfig = {
-  apiKey: "exemplo",
-  authDomain: "exemplo.firebaseapp.com",
-  databaseURL: "https://exemplo.firebaseio.com",
-  projectId: "exemplo",
-  storageBucket: "exemplo.appspot.com",
-  messagingSenderId: "1234",
-  appId: "1234"
-};
 
 const app = initializeApp(firebaseConfig);
 
