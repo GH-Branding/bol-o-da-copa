@@ -1,6 +1,7 @@
 {
-    "matches": [
+    "jogos": [
         {
+            "id": 1,
             "team1": "Senegal",
             "team2": "Holanda",
             "score1": 1,
@@ -8,6 +9,7 @@
             "phase": "grupos"
         },
         {
+            "id": 2,
             "team1": "Inglaterra",
             "team2": "Irã",
             "score1": 1,
@@ -15,6 +17,7 @@
             "phase": "grupos"
         },
         {
+            "id": 3,
             "team1": "Catar",
             "team2": "Equador",
             "score1": 1,
@@ -22,6 +25,7 @@
             "phase": "grupos"
         },
         {
+            "id": 4,
             "team1": "EUA",
             "team2": "País de Gales",
             "score1": 1,
@@ -29,6 +33,7 @@
             "phase": "grupos"
         },
         {
+            "id": 5,
             "team1": "Argentina",
             "team2": "Arábia Saudita",
             "score1": 1,
@@ -36,6 +41,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Dinamarca",
             "team2": "Tunísia",
             "score1": 1,
@@ -43,6 +49,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "México",
             "team2": "Polônia",
             "score1": 1,
@@ -50,6 +57,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "França",
             "team2": "Austrália",
             "score1": 1,
@@ -57,6 +65,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Marrocos",
             "team2": "Croácia",
             "score1": 1,
@@ -64,6 +73,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Alemanha",
             "team2": "Japão",
             "score1": 1,
@@ -71,6 +81,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Espanha",
             "team2": "Costa Rica",
             "score1": 1,
@@ -78,6 +89,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Bélgica",
             "team2": "Canadá",
             "score1": 1,
@@ -85,6 +97,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Suíça",
             "team2": "Camarões",
             "score1": 1,
@@ -92,6 +105,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Uruguai",
             "team2": "Coréia do Sul",
             "score1": 1,
@@ -99,6 +113,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Portugal",
             "team2": "Gana",
             "score1": 1,
@@ -106,6 +121,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Brasil",
             "team2": "Sérvia",
             "score1": 1,
@@ -113,6 +129,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "País de Gales",
             "team2": "Irã",
             "score1": 1,
@@ -120,6 +137,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Catar",
             "team2": "Senegal",
             "score1": 1,
@@ -127,6 +145,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Holanda",
             "team2": "Equador",
             "score1": 1,
@@ -134,6 +153,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Inglaterra",
             "team2": "EUA",
             "score1": 1,
@@ -141,6 +161,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Tunísia",
             "team2": "Austrália",
             "score1": 1,
@@ -148,6 +169,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Polônia",
             "team2": "Arábia Saudita",
             "score1": 1,
@@ -155,6 +177,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "França",
             "team2": "Dinamarca",
             "score1": 1,
@@ -162,6 +185,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Argentina",
             "team2": "México",
             "score1": 1,
@@ -169,6 +193,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Japão",
             "team2": "Costa Rica",
             "score1": 1,
@@ -176,6 +201,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Bélgica",
             "team2": "Marrocos",
             "score1": 1,
@@ -183,6 +209,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Croácia",
             "team2": "Canadá",
             "score1": 1,
@@ -190,6 +217,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Espanha",
             "team2": "Alemanha",
             "score1": 1,
@@ -197,6 +225,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Camarões",
             "team2": "Sérvia",
             "score1": 1,
@@ -204,6 +233,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Coréia do Sul",
             "team2": "Gana",
             "score1": 1,
@@ -211,6 +241,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Brasil",
             "team2": "Suíça",
             "score1": 1,
@@ -218,6 +249,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Portugal",
             "team2": "Uruguai",
             "score1": 1,
@@ -225,6 +257,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Equador",
             "team2": "Senegal",
             "score1": 1,
@@ -232,6 +265,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Holanda",
             "team2": "Catar",
             "score1": 1,
@@ -239,6 +273,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Irã",
             "team2": "EUA",
             "score1": 1,
@@ -246,6 +281,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "País de Gales",
             "team2": "Inglaterra",
             "score1": 1,
@@ -253,6 +289,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Tunísia",
             "team2": "França",
             "score1": 1,
@@ -260,6 +297,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Austrália",
             "team2": "Dinamarca",
             "score1": 1,
@@ -267,6 +305,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Polônia",
             "team2": "Argentina",
             "score1": 1,
@@ -274,6 +313,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Arábia Saudita",
             "team2": "México",
             "score1": 1,
@@ -281,6 +321,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Croácia",
             "team2": "Bélgica",
             "score1": 1,
@@ -288,6 +329,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Canadá",
             "team2": "Marrocos",
             "score1": 1,
@@ -295,6 +337,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Japão",
             "team2": "Espanha",
             "score1": 1,
@@ -302,6 +345,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Costa Rica",
             "team2": "Alemanha",
             "score1": 1,
@@ -309,6 +353,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Coréia do Sul",
             "team2": "Portugal",
             "score1": 1,
@@ -316,6 +361,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Gana",
             "team2": "Uruguai",
             "score1": 1,
@@ -323,6 +369,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Sérvia",
             "team2": "Suíça",
             "score1": 1,
@@ -330,6 +377,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Camarões",
             "team2": "Brasil",
             "score1": 1,
@@ -337,6 +385,7 @@
             "phase": "grupos"
         },
         {
+            "id": 1,
             "team1": "Canadá",
             "team2": "Brasil",
             "score1": 1,
@@ -344,46 +393,192 @@
             "phase": "oitavas"
         }
     ],
-    "teams": [
-        "Catar",
-        "Equador",
-        "Senegal",
-        "Holanda",
-        "Inglaterra",
-        "Irã",
-        "EUA",
-        "País de Gales",
-        "Argentina",
-        "Aŕabia Saudita",
-        "México",
-        "Polônia",
-        "França",
-        "Austrália",
-        "Dinamarca",
-        "Tunísia",
-        "Espanha",
-        "Costa Rica",
-        "Alemanha",
-        "Japão",
-        "Bélgica",
-        "Canadá",
-        "Marrocos",
-        "Croácia",
-        "Brasil",
-        "Sérvia",
-        "Suíça",
-        "Camarões",
-        "Portugal",
-        "Gana",
-        "Uruguai",
-        "Coréia do Sul"
+    "times": [
+        {
+            "id": 1,
+            "nome": "Catar"
+        },
+        {
+            "id": 2,
+            "nome": "Equador"
+        },
+        {
+            "id": 3,
+            "nome": "Senegal"
+        },
+        {
+            "id": 4,
+            "nome": "Holanda"
+        },
+        {
+            "id": 5,
+            "nome": "Inglaterra"
+        },
+        {
+            "id": 1,
+            "nome": "Irã"
+        },
+        {
+            "id": 1,
+            "nome": "EUA"
+        },
+        {
+            "id": 1,
+            "nome": "País de Gales"
+        },
+        {
+            "id": 1,
+            "nome": "Argentina"
+        },
+        {
+            "id": 1,
+            "nome": "Aŕabia Saudita"
+        },
+        {
+            "id": 1,
+            "nome": "México"
+        },
+        {
+            "id": 1,
+            "nome": "Polônia"
+        },
+        {
+            "id": 1,
+            "nome": "França"
+        },
+        {
+            "id": 1,
+            "nome": "Austrália"
+        },
+        {
+            "id": 1,
+            "nome": "Dinamarca"
+        },
+        {
+            "id": 1,
+            "nome": "Tunísia"
+        },
+        {
+            "id": 1,
+            "nome": "Espanha"
+        },
+        {
+            "id": 1,
+            "nome": "Costa Rica"
+        },
+        {
+            "id": 1,
+            "nome": "Alemanha"
+        },
+        {
+            "id": 1,
+            "nome": "Japão"
+        },
+        {
+            "id": 1,
+            "nome": "Bélgica"
+        },
+        {
+            "id": 1,
+            "nome": "Canadá"
+        },
+        {
+            "id": 1,
+            "nome": "Marrocos"
+        },
+        {
+            "id": 1,
+            "nome": "Croácia"
+        },
+        {
+            "id": 1,
+            "nome": "Brasil"
+        },
+        {
+            "id": 1,
+            "nome": "Sérvia"
+        },
+        {
+            "id": 1,
+            "nome": "Suíça"
+        },
+        {
+            "id": 1,
+            "nome": "Camarões"
+        },
+        {
+            "id": 1,
+            "nome": "Portugal"
+        },
+        {
+            "id": 1,
+            "nome": "Gana"
+        },
+        {
+            "id": 1,
+            "nome": "Uruguai"
+        },
+        {
+            "id": 1,
+            "nome": "Coréia do Sul"
+        }
     ],
-    "phases": [
-        "grupos",
-        "oitavas",
-        "quartas",
-        "semi",
-        "terceiro-lugar",
-        "final"
+    "fases": [
+        {
+            "id": 1,
+            "nome": "grupos"
+        },
+        {
+            "id": 2,
+            "nome": "oitavas"
+        },
+        {
+            "id": 3,
+            "nome": "quartas"
+        },
+        {
+            "id": 4,
+            "nome": "semi"
+        },
+        {
+            "id": 5,
+            "nome": "terceiro-lugar"
+        },
+        {
+            "id": 6,
+            "nome": "final"
+        }
+    ],
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "Admin",
+            "email": "admin@admin.com",
+            "senha": "123"
+        },
+        {
+            "id": 2,
+            "nome": "Admin2",
+            "email": "admin2@admin.com",
+            "senha": "123"
+        }
+    ],
+    "palpites": [
+        {
+            "id": 1,
+            "jogo_id": 1,
+            "usuario_id": 1,
+            "penaltis": false,
+            "placar1": 2,
+            "placar2": 0
+        },
+        {
+            "id": 2,
+            "jogo_id": 1,
+            "usuario_id": 1,
+            "penaltis": false,
+            "placar1": 2,
+            "placar2": 0
+        }
     ]
 }

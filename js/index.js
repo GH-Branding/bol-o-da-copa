@@ -1,4 +1,5 @@
 import firebaseConfig from './config';
+import Palpite from './PalpiteRepository';
 import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, child, get, set } from "firebase/database";
 
@@ -11,7 +12,7 @@ var APP = {
   },
   read: function () {
     const dbRef = ref(getDatabase(app));
-    get(child(dbRef, `matches`)).then((snapshot) => {
+    get(child(dbRef, `palpites`)).then((snapshot) => {
       if (snapshot.exists()) {
         var dados = snapshot.val();
         var resultado = APP.filtrarLista(dados, "Senegal");
@@ -32,7 +33,12 @@ var APP = {
 
   init: function () {
     APP.read();
-  }
+  },
+
+  gravarPalpite: function() {},
+
 }
 
 APP.init();
+Palpite.read();
+Palpite.create();
