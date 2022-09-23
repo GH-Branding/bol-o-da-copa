@@ -1,61 +1,53 @@
-import firebaseConfig from './config';
-import { initializeApp } from 'firebase/app';
-import { getDatabase, ref, child, get, set } from "firebase/database";
 
-// Docs: https://firebase.google.com/docs/database/web/read-and-write
-const app = initializeApp(firebaseConfig);
+import { db, isObjetoValido, isIdValido } from "./Repository";
+import { ref, query, limitToFirst, limitToLast, set, get, remove } from "firebase/database";
+
+const nomeColecao = 'palpites'
 
 const Palpite = {
-    create: () => {
-        const db = getDatabase(app);
-        const dbRef = ref(getDatabase(app));
-        get(child(dbRef, `palpites`)).then((snapshot) => {
-          if (snapshot.exists()) {
-            let dados = snapshot.val();
-            var id_ultimo = 1
-            let data = {
-                "jogo_id": 1,
-                "usuario_id": 1,
-                "penaltis": false,
-                "placar1": 1,
-                "placar2": 2
-            }
-            if (dados && dados.length) {
-                id_ultimo = dados[dados.length-1].id
-            } 
-            data.id = id_ultimo + 1
-            set(ref(db, 'palpites/' + data.id), data);
-          } else {
-            console.log("Não há dados para serem exibidos");
-          }
-        }).catch((error) => {
-          console.error(error);
-        });
-    },
-    read: () => {
-        const dbRef = ref(getDatabase(app));
-        get(child(dbRef, `palpites`)).then((snapshot) => {
-          if (snapshot.exists()) {
-            var dados = snapshot.val();
-            console.log(dados);
-          } else {
-            console.log("Não há dados para serem exibidos");
-          }
-        }).catch((error) => {
-          console.error(error);
-        });
-    },
-    update: (id) => {
-        //valida se o id é um número!
-        //pega um registro que já existe no banco com id X
-        //altera ele
-        //manda salvar
-    },
-    delete: (id) => {
-        //valida se o id é um número!
-        //pega um registro que já existe no banco com id X
-        //manda deletar
+  create: async (obj) => {
+    var novoId = 1
+    if (isObjetoValido(obj)) {
+      let ultimo = await Palpite.read(false, 1)
+      novoId = (ultimo && ultimo.length) ? (parseInt(ultimo[0].id) + 1) : 1
+      obj.id = novoId
+      const dbRef = ref(db, `${nomeColecao}/${novoId}`)
+      set(dbRef, obj);
+    } else {
+      console.log("Erro: não há objeto para inserir")
     }
+  },
+  readById: async (id) => {
+    // ler do banco, mas apenas 1 registro informado pelo usuário
+    // se o registro não existe, retorna array vazio
+  },
+  read: async (primeiro, limite) => {
+    var result = [];
+    limite = limite ? limite : 10
+    const condicao = (primeiro ? limitToFirst(limite) : limitToLast(limite))
+    const dbRef = query(ref(db, nomeColecao), condicao)
+    await get(dbRef).then((snapshot) => {
+      if (snapshot.exists()) {
+        var dados = snapshot.val()
+        let chaves = Object.keys(dados)
+        for (let chave of chaves) {
+          result.push(dados[chave])
+        }
+      }
+    }).catch((error) => {
+      console.error(error);
+    });
+    return result.filter(item => item)
+  },
+  update: async (obj) => {
+    // passa um objeto que já tenha um id
+    // manda o banco gravar esse objeto nesse id, ou seja, se já tiver algo com esse id vai gravar por cima
+    // se não tiver nada com esse id, vai inserir
+  },
+  delete: (id) => {
+    // usa a função remove()
+    // referência: https://www.educative.io/courses/complete-guide-firebase-web/gkJGzkWK7zk
+  }
 }
 
 export default Palpite;
