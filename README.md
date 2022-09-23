@@ -27,7 +27,7 @@ O bolão da Copa é uma aplicação JavaScript que utiliza o banco de dados fire
 Ranking de usuários por pontos
 
 # Link do Diagrama ER
-    - https://app.diagrams.net/#G1_-XaVVPYtHOQ_8B6vZBHyXmZESlpSFpj
+    - https://drive.google.com/file/d/1_-XaVVPYtHOQ_8B6vZBHyXmZESlpSFpj/view?usp=sharing
   
 
 # Setup
