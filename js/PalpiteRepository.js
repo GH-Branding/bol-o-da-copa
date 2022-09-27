@@ -1,6 +1,6 @@
 
 import { db, isObjetoValido, isIdValido } from "./Repository";
-import { ref, query, limitToFirst, limitToLast, set, get, remove } from "firebase/database";
+import { ref, query, limitToFirst, limitToLast, set, get, remove, update } from "firebase/database";
 
 const nomeColecao = 'palpites'
 
@@ -40,6 +40,19 @@ const Palpite = {
     return result.filter(item => item)
   },
   update: async (obj) => {
+    if (isObjetoValido(obj)) {
+      const dbRef = ref(db, `${nomeColecao}/${obj.id}`)
+      update(dbRef, obj);
+    } else {
+      console.log("Erro: não há objeto para atualizar")
+      const result = confirm('O objeto não existe no cadastro, deseja criá-lo?')
+      if (result == true) {
+        Palpite.create(obj)
+      } else {
+        alert('O objeto não foi cadastrado!')
+      }
+
+    }
     // passa um objeto que já tenha um id
     // manda o banco gravar esse objeto nesse id, ou seja, se já tiver algo com esse id vai gravar por cima
     // se não tiver nada com esse id, vai inserir
