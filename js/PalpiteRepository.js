@@ -1,6 +1,6 @@
 
 import { db, isObjetoValido, isIdValido } from "./Repository";
-import { ref, query, limitToFirst, limitToLast, set, get, remove, update } from "firebase/database";
+import { ref, query, limitToFirst, limitToLast, set, get, remove } from "firebase/database";
 
 const nomeColecao = 'palpites'
 
@@ -40,9 +40,11 @@ const Palpite = {
     return result.filter(item => item)
   },
   update: async (obj) => {
+    const dbRef = ref(db, `${nomeColecao}/${obj}`) 
+    console.log(dbRef._path.pieces_);
     if (isObjetoValido(obj)) {
-      const dbRef = ref(db, `${nomeColecao}/${obj.id}`)
-      update(dbRef, obj);
+      // const dbRef = ref(db, `${nomeColecao}/${obj}`) 
+      dbRef.update({palpite1:"7x1"});
     } else {
       console.log("Erro: não há objeto para atualizar")
       const result = confirm('O objeto não existe no cadastro, deseja criá-lo?')
@@ -57,10 +59,21 @@ const Palpite = {
     // manda o banco gravar esse objeto nesse id, ou seja, se já tiver algo com esse id vai gravar por cima
     // se não tiver nada com esse id, vai inserir
   },
-  delete: (id) => {
-    // usa a função remove()
-    // referência: https://www.educative.io/courses/complete-guide-firebase-web/gkJGzkWK7zk
+
+  delete: async (obj) => {
+    if (isObjetoValido(obj)) {
+      const dbRef = ref(db, `${nomeColecao}/${obj.id}`)
+      remove(dbRef).then(() => {
+        console.log('removido');
+      })
+    } else {
+      console.log("Erro: não há objeto para deletar");
+    }
   }
+
+  // usa a função remove()
+    // referência: https://www.educative.io/courses/complete-guide-firebase-web/gkJGzkWK7zk
+
 }
 
 export default Palpite;
