@@ -4,20 +4,15 @@ var APP = {
 
   init: async function () {
 
-    Palpite.update({
-      id: 1
-    })
-
     try {
-
-      var idTest = 5
-
-
+      var idTest = 15
       var registros = await Palpite.read(true, 10);
-      console.log('Registro',registros)
+      console.log('Registro', registros)
 
       registros = await Palpite.readById(idTest);
-      console.log(registros)
+      console.log('Registro', registros)
+
+      Palpite.create({nome: "gabriel"})
 
     } catch (e) {
       console.log(e)

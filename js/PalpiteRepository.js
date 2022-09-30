@@ -18,8 +18,21 @@ const Palpite = {
     }
   },
   readById: async (id) => {
-    // ler do banco, mas apenas 1 registro informado pelo usuário
-    // se o registro não existe, retorna array vazio
+    var resultado = {}
+    if (isIdValido(id)) {
+      const dbRef = query(ref(db, `${nomeColecao}/${id}`))
+      await get(dbRef).then((snapshot) => {
+        if (snapshot.exists()) {
+          var dados = snapshot.val()
+          resultado = dados
+        }
+      }).catch((error) => {
+        console.error(error);
+      });
+    } else {
+      console.log("Erro: id não é válido")
+    }
+    return resultado
   },
   read: async (primeiro, limite) => {
     var result = [];
@@ -40,40 +53,38 @@ const Palpite = {
     return result.filter(item => item)
   },
   update: async (obj) => {
-    const dbRef = ref(db, `${nomeColecao}/${obj}`) 
-    console.log(dbRef._path.pieces_);
     if (isObjetoValido(obj)) {
-      // const dbRef = ref(db, `${nomeColecao}/${obj}`) 
-      dbRef.update({palpite1:"7x1"});
-    } else {
-      console.log("Erro: não há objeto para atualizar")
-      const result = confirm('O objeto não existe no cadastro, deseja criá-lo?')
-      if (result == true) {
-        Palpite.create(obj)
+      let existe = Palpite.readById(obj.id)
+
+      if (existe.id) {
+        const dbRef = ref(db, `${nomeColecao}/${obj.id}`)
+        set(dbRef, obj);
       } else {
-        alert('O objeto não foi cadastrado!')
+        const result = confirm('O objeto não existe no cadastro, deseja criá-lo?')
+        if (result) {
+          Palpite.create(obj)
+        } else {
+          alert('O objeto não foi cadastrado!')
+        }
       }
-
+    } else {
+      console.log("Erro: o objeto não é válido")
     }
-    // passa um objeto que já tenha um id
-    // manda o banco gravar esse objeto nesse id, ou seja, se já tiver algo com esse id vai gravar por cima
-    // se não tiver nada com esse id, vai inserir
   },
-
-  delete: async (obj) => {
-    if (isObjetoValido(obj)) {
-      const dbRef = ref(db, `${nomeColecao}/${obj.id}`)
+  delete: async (id) => {
+    if (isIdValido(id)) {
+      const dbRef = ref(db, `${nomeColecao}/${id}`)
       remove(dbRef).then(() => {
         console.log('removido');
+      })
+      .catch(() => {
+        console.log('erro ao remover');
       })
     } else {
       console.log("Erro: não há objeto para deletar");
     }
   }
-
-  // usa a função remove()
-    // referência: https://www.educative.io/courses/complete-guide-firebase-web/gkJGzkWK7zk
-
+  // referência: https://www.educative.io/courses/complete-guide-firebase-web/gkJGzkWK7zk
 }
 
 export default Palpite;
