@@ -26,8 +26,11 @@ O bolão da Copa é uma aplicação JavaScript que utiliza o banco de dados fire
     - Definir quantos pontos ganha por acerto
 Ranking de usuários por pontos
 
-# Link do Diagrama ER
+# Link do Diagrama ER ANTIGA
     - https://drive.google.com/file/d/1_-XaVVPYtHOQ_8B6vZBHyXmZESlpSFpj/view?usp=sharing
+
+# Link do Diagrama ER NOVA
+    - https://drive.google.com/file/d/1rQUjCAQZoOzoimHAQoNv9b9YYjV-VvrS/view?usp=sharing
   
 
 # Setup

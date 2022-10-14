@@ -1,14 +1,14 @@
 
-import { db, isObjetoValido, isIdValido } from "./Repository";
+import { db, isObjetoValido, isIdValido } from "../Repository";
 import { ref, query, limitToFirst, limitToLast, set, get, remove } from "firebase/database";
 
-const nomeColecao = 'palpites'
+const nomeColecao = 'jogos'
 
-const Palpite = {
+const Jogos = {
   create: async (obj) => {
     var novoId = 1
     if (isObjetoValido(obj)) {
-      let ultimo = await Palpite.read(false, 1)
+      let ultimo = await Jogos.read(false, 1)
       novoId = (ultimo && ultimo.length) ? (parseInt(ultimo[0].id) + 1) : 1
       obj.id = novoId
       const dbRef = ref(db, `${nomeColecao}/${novoId}`)
